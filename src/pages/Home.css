@@ -1,0 +1,49 @@
+
+
+.banner {
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://img-a.udemycdn.com/notices/home_banner/image_udlite/8a5d045c-2dd2-4a4d-bb0e-a487af8a5aa0.jpg?CYKAMQonUt_Q8juzRJtUVkEbu1RwcHU55Adlok0yRuxbvG5lO96pnu4FfKWdIJtWm2OmGEHkOnVmyynJJwYAhuFcb3SxhUH_XLnUXNQWomPNNJf5Xs0D7qcW5RsaYq1MGRBGHVaV1f6OxJ7vTiTVZGTWbBM7dBGndSdb9qua79zEi-pFqU26Pg);
+}
+
+.personal-learning {
+    color: white;
+    height: 30vh;
+    /* width: 100%; */
+    background-color: rgb(99, 24, 99);
+}
+
+.btn-start {
+    width: 8rem;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    border: 4px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.btn-explore {
+    margin: 3.3%;
+    min-width: 6rem;
+    max-height: 3rem;
+    background-color: #0f7c90;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #0f7c90;
+}
+
+.instructor {
+    margin: 10%;
+}
+
+.business {
+    background-color: #003640;
+    color: white;
+    height: 40vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
