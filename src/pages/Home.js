@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import '../assets/css/Home.css'
 import Courses from '../component/Courses'
 import Categories from '../component/Categories'
 import Footer from '../component/Footer'

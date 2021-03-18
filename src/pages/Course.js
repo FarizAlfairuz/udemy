@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/home.css'
+import '../assets/css/course.css'
 import WhatYouLearn from '../component/WhatYouLearn';
 import youtubeApi from '../API/youtubeApi';
 import Deskripsi from '../component/Deskripsi'
