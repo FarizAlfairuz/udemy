@@ -112,7 +112,7 @@ function Courses() {
 
     return (
         <div>
-            <ul className="list-group list-group-horizontal ml-5" style={{ cursor: "pointer" }}>
+            <ul className="list-group list-group-horizontal m-5 courses-list" style={{ cursor: "pointer" }}>
                 {course.list.map((courses, index) =>
                     <div
                         key={index}

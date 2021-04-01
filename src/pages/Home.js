@@ -77,7 +77,9 @@ function Home() {
             <button className="btn btn-explore my-2 pt-2 pb-2 my-sm-0" type="submit"> <strong>Explore more</strong> </button>
 
             <div className="instructor container d-flex justify-content-center">
-                <img src="https://s.udemycdn.com/home/non-student-cta/udlite-lohp-promo-teacher.jpg" alt="" />
+                <div className="instructor-image">
+                    <img src="https://s.udemycdn.com/home/non-student-cta/udlite-lohp-promo-teacher.jpg" alt="" />
+                </div>
                 <div className="m-5 d-flex flex-column justify-content-center align-items-start">
                     <h4>Become an instructor</h4>
                     <h6>Top instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</h6>
@@ -102,14 +104,16 @@ function Home() {
                     <h6>Get unlimited access to 5,500+ of Udemy’s top courses for your team.</h6>
                     <button className="btn btn-explore my-2 pt-2 pb-2 my-sm-0 mx-sm-0" type="submit"> <strong>Get Udemy for Business</strong> </button>
                 </div>
-                <div className="d-flex flex-column justify-content-center align-items-start" >
+                <div className="flex-column justify-content-center align-items-start bussiness-image" >
                     <img src="https://s.udemycdn.com/home/non-student-cta/udlite-lohp-promo-ufb.jpg" alt="" />
                 </div>
             </div>
 
-            <div className="d-flex justify-content-center p-5" style={{ borderTop: "1px solid rgb(219, 216, 216)" }}>
-                <iframe width="480" height="315" src="https://www.youtube.com/embed/QFIhEmOd6No" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <div className="d-flex flex-column justify-content-center align-items-start p-5" style={{ width: "40vw" }}>
+            <div className="intro-video justify-content-center p-5" style={{ borderTop: "1px solid rgb(219, 216, 216)" }}>
+                <div>
+                    <iframe src="https://www.youtube.com/embed/QFIhEmOd6No" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div className="intro-video-desc flex-column justify-content-center align-items-start p-5" style={{ width: "40vw" }}>
                     <h2>Transform your life through education</h2>
                     <h6>Mohamad Alaloush launched a new career in software development by taking courses on Udemy. What will you be able to do?</h6>
                 </div>

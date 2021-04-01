@@ -16,7 +16,7 @@ function CoursesCard(props) {
             >
                 <div className="card courses-card" style={{ width: "15rem", minHeight: "60vh" }}>
                     <div className="card-body course">
-                        <img src={props.thumbnail} alt="image" style={{ width: '200px' }} />
+                        <img src={props.thumbnail} alt="image" style={{ width: '100%' }} />
                         <h6>{props.title}</h6>
                         <p>{props.author}</p>
                         <div className="stars d-flex"><h6>4.6 </h6>

@@ -49,6 +49,10 @@
     border: 0;
 }
 
+/* .list-group {
+    margin: 40%
+} */
+
 .btn-cart {
     min-width: 6rem;
     background-color: #fc759d;
@@ -79,4 +83,8 @@
 .slick-next:before {
     color: rgb(85, 85, 85) !important;
     background-color: rgba(255, 255, 255, 0);
+}
+
+.courses-list {
+    overflow: auto;
 }

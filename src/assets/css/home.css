@@ -40,6 +40,48 @@
     margin: 10%;
 }
 
+.instructor-image {
+    display: inherit;
+}
+
+.bussiness-image {
+    display: flex;
+}
+
+.intro-video {
+    display: flex;
+}
+
+.intro-video-desc {
+    display: flex;
+}
+
+iframe {
+    width: 480px;
+    height: 315px;
+}
+
+@media only screen and (max-width: 600px) {
+    .instructor-image{
+        display: none;
+    }
+    .bussiness-image {
+        display: none;
+    }
+    .intro-video {
+        display: inline;
+    }
+    .intro-video-desc {
+        display: inline;
+    }
+    iframe {
+        width: 312px;
+        height: 280px;
+    }
+}
+
+
+
 .business {
     background-color: #003640;
     color: white;

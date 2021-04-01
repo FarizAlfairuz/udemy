@@ -33,7 +33,7 @@ class Course extends Component {
   }
 
 // toggle untuk navbarMobile
-  toggleBody = () =>{
+  toggleBody = () => {
     this.setState({toggleNav:false,opacity:false})
   }
   toggleTruncatedNav = () => {
@@ -43,7 +43,7 @@ class Course extends Component {
       this.setState({toggleNav:!this.state.toggleNav,opacity:false})
     }
   }
-  dropdownActive = (index) =>{
+  dropdownActive = (index) => {
     this.setState({
       dropdownActive:this.state.thumbVideo[index],
       active:true
@@ -90,10 +90,10 @@ class Course extends Component {
     return (
       <>
           {/* NavMobile */}
-          <NavMobile
+          {/* <NavMobile
             toggleNav={this.state.toggleNav}
             toggleTruncatedNav={this.toggleTruncatedNav}
-          />
+          /> */}
           {/* Thumbnail dari home */}
           <div  onClick={this.toggleBody} className={this.state.opacity ? 'home-opacity' : ''}>
             <ThumbnailHome/>
